@@ -106,9 +106,9 @@ a{
     border: 1px dashed black;
 }
 
-/*impostazioni seconda sezione main*/
+/*impostazioni seconda e quarta sezione main*/
 
-.container-two-sez{
+.container-two-sez, .container-four-sez{
     background-color: white;
     max-width: 1170px;
     height: 380px;
@@ -118,7 +118,7 @@ a{
     
 }
 
-.row-two-sez{
+.row-two-sez, .row-four-sez{
     width: 700px;
     margin: auto;
     align-items: center;
@@ -126,14 +126,14 @@ a{
     justify-content: space-around;
 }
 
-.col60-two-sez{
+.col60-two-sez, .col60-four-sez{
         background-color: aqua;
         border: 1px dashed black;
         width: 60%;
         height: 300px;
 }
 
-.col40-two-sez{
+.col40-two-sez, .col40-four-sez{
     background-color: rgb(254, 177, 255);
     border: 1px dashed black;
     width: 40%;
