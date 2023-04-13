@@ -142,7 +142,7 @@ a{
 
 /*impostazioni terza sezione main*/
 
-.container-tree-sez{
+.container-three-sez{
     background-color: rgb(201, 201, 201);
     max-width: 1170px;
     height: 380px;
@@ -151,7 +151,7 @@ a{
     border-bottom: 1px solid rgb(222, 222, 222)
 }
 
-.row-tree-sez{
+.row-three-sez{
     width: 700px;
     margin: auto;
     align-items: center;
@@ -159,7 +159,7 @@ a{
     justify-content: space-around;
 }
 
-.col60-tree-sez{
+.col60-three-sez{
         background-color: aqua;
         border: 1px dashed black;
         width: 60%;
@@ -167,9 +167,35 @@ a{
 
 }
 
-.col40-tree-sez{
+.col40-three-sez{
     background-color: rgb(254, 177, 255);
     border: 1px dashed black;
     width: 40%;
     height: 300px
+}
+
+/*impostazioni quinta sezione main*/
+
+.container-five-sez{
+    background-color: rgb(201, 201, 201);
+    max-width: 1170px;
+    height: 680px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(222, 222, 222)
+}
+
+.row-five-sez{
+    width: 700px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-five-sez{
+        background-color: green;
+        border: 1px dashed black;
+        width: 100%;
+        height: 600px;
 }
