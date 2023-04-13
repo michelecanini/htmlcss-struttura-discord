@@ -10,15 +10,30 @@
 
 .container{
     background-color: red;
-    width: 100%;
+    max-width: 1170px;
     height: 80px;
     display: flex;
+    margin: 0 auto;
 }
 
-.navigator{
+.row-nav{
     background-color:darkorange;
-    height: 50px;
-    width: 800px;
+    height: 40px;
+    width: 700px;
     margin: auto;
     align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-logo, .col-login{
+    border: 1px dashed black;
+    width: 20%;
+    height: 100%
+}
+
+.col-link{
+    width: 60%;
+    border: 1px dashed black;
+    height: 100%
 }
